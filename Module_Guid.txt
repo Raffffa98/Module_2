@@ -1,7 +1,0 @@
-Module Assesment includes:
-
-1. User Guide
-
-2. Tool itself
-
-3. Video Presentation

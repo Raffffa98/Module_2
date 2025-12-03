@@ -1,0 +1,292 @@
+🎯 Tool Concept: Maya → Unreal LOD Creator & Exporter
+🟦 Problem
+
+Game artists often need to create multiple LODs for a mesh.
+The process is slow:
+
+Duplicate mesh
+
+Reduce polycount
+
+Rename correctly (LOD0, LOD1…)
+
+Set pivot / freeze transforms
+
+Export FBX with correct settings
+
+Import manually in Unreal
+
+This is error-prone and repetitive.
+
+🟩 Goal
+
+A Python tool inside Maya that:
+
+✔ Automatically generates LOD meshes
+✔ Lets user set reduction percentages
+✔ Renames objects correctly (StaticMesh_LOD0, LOD1…)
+✔ Preps meshes (freeze, cleanup)
+✔ Exports a clean FBX
+✔ (Optional) Creates an Unreal-ready folder structure
+✔ (Advanced optional) Auto-imports into Unreal with command-line tools
+
+This is a real pipeline tool.
+
+🧱 Core Features (for your assignment)
+
+These are enough to get top marks:
+
+1. GUI Panel
+
+object selector
+
+LOD count
+
+sliders for % reduction
+
+export path field
+
+“Generate LODs” button
+
+“Export to Unreal” button
+
+2. LOD Generator
+
+For each LOD:
+
+duplicate mesh
+
+rename with correct suffix
+
+run poly reduction with:
+
+percentage value
+
+keep UVs
+
+keep vertex colours (optional)
+
+preserve topology
+
+3. Mesh Cleanup
+
+Per LOD:
+
+freeze
+
+delete history
+
+center pivot (optional toggle)
+
+transform cleanup
+
+4. FBX Exporter
+
+enforce Unreal-compatible FBX settings
+
+export meshes with naming conventions
+
+optional auto-folder creation (Meshes/LOD/)
+
+🧱 Advanced Features (if you want to push the project further)
+🔹 Batch mode: process multiple meshes at once
+🔹 LOD preview (display triangle counts)
+🔹 Auto-generate collision mesh
+🔹 Use Maya API 2.0 for faster performance
+🔹 Build a custom Unreal “import script” that picks up the FBX
+
+These are optional but would impress examiners.
+
+📁 Suggested File Structure
+MayaToUnrealLODTool/
+│
+├── __init__.py
+├── main.py                         # Launches UI panel
+├── ui/
+│   ├── lod_window.py               # Main UI code
+│   └── lod_styles.qss              # Stylesheet (optional)
+│
+├── core/
+│   ├── lod_generator.py            # Reduction logic
+│   ├── mesh_cleanup.py             # Cleanup & prep
+│   ├── fbx_export.py               # Export logic
+│   └── utils.py                    # Helpers (naming, selection)
+│
+├── icons/
+│   └── lod_icon.png                # Optional
+│
+└── README.md                       # For your assignment report
+
+🧪 How the Tool Workflow Would Look (User Flow)
+1. Select a mesh
+2. Open the LOD Tool panel
+3. Enter number of LODs (2–4)
+4. Enter reduction % for each level
+
+Example:
+
+LOD1: 50%
+
+LOD2: 20%
+
+LOD3: 10%
+
+5. Press “Generate LODs”
+
+The tool duplicates mesh → applies reduction → renames → cleans.
+
+6. Press “Export to Unreal”
+
+Exports 1 FBX containing all LODs in correct order.
+
+7. (Optional) Script auto-imports into Unreal project
+
+Using:
+
+"C:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Cmd.exe"
+
+🧠 Rough Example of Core Python (Simplified)
+Basic LOD generation logic
+
+(You will refine this in your project)
+
+import maya.cmds as cmds
+
+def generate_lods(mesh, lod_count, reductions):
+    lod_meshes = []
+    
+    for i in range(lod_count):
+        lod_name = f"{mesh}_LOD{i}"
+
+        # Duplicate
+        dup = cmds.duplicate(mesh, name=lod_name)[0]
+
+        # Poly reduction
+        cmds.polyReduce(
+            dup,
+            version=1,
+            percentage=reductions[i],
+            preserveTopology=True
+        )
+
+        # Cleanup
+        cmds.makeIdentity(dup, apply=True, t=1, r=1, s=1)
+        cmds.delete(dup, ch=True)
+
+        lod_meshes.append(dup)
+
+    return lod_meshes
+
+Example FBX Export (Simplified)
+def export_fbx(output_path, objects):
+    cmds.select(objects)
+
+    cmds.file(
+        output_path,
+        force=True,
+        exportSelected=True,
+        type="FBX export",
+        options="fbx"
+    )
+
+🖥 Example UI Outline (PySide2)
+from PySide2 import QtWidgets, QtCore
+
+class LODWindow(QtWidgets.QDialog):
+    def __init__(self):
+        super(LODWindow, self).__init__()
+        self.setWindowTitle("Maya → Unreal LOD Tool")
+
+        main_layout = QtWidgets.QVBoxLayout(self)
+
+        self.lod_count = QtWidgets.QSpinBox()
+        self.lod_count.setRange(1, 5)
+
+        self.generate_btn = QtWidgets.QPushButton("Generate LODs")
+        self.export_btn = QtWidgets.QPushButton("Export FBX")
+
+        main_layout.addWidget(self.lod_count)
+        main_layout.addWidget(self.generate_btn)
+        main_layout.addWidget(self.export_btn)
+
+🗓 6-Week Development Plan (Your Assignment Timeline)
+Week 1 — Research & Setup
+
+Study Maya Python basics
+
+Refresh PySide2
+
+Create folder structure
+
+Setup launcher script in Maya
+
+Week 2 — LOD Generation
+
+Write duplication
+
+Write polyReduction logic
+
+Test mesh cleanup
+
+Test naming conventions
+
+Week 3 — Build UI
+
+Create PySide2 interface
+
+Connect UI → LOD functions
+
+Add export settings
+
+Week 4 — Export Pipeline
+
+Implement FBX export
+
+Add Unreal-friendly settings
+
+Choose export folder structure
+
+Week 5 — Polish & Optional Features
+
+Batch processing
+
+Error handling
+
+Validation (check mesh selected)
+
+Week 6 — Final Testing & Documentation
+
+Test on multiple meshes
+
+Write README + submission report
+
+Create demo video
+
+🎉 This tool is absolutely strong enough for your assignment
+
+It demonstrates:
+
+Python skills
+
+Maya API knowledge
+
+UI building
+
+Tool design
+
+Pipeline understanding
+
+Game art workflow knowledge
+
+And it connects perfectly to your career goal (game environments & stylised art).
+
+👉 If you want:
+
+I can now generate:
+
+✔ Full UI design (with sketches)
+✔ A working boilerplate plugin
+✔ Full Python code templates
+✔ A detailed project proposal you can give your lecturer
+✔ Research material for your report
+

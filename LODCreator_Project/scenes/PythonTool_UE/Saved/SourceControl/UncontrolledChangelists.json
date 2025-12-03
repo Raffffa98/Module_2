@@ -1,0 +1,46 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/MyLevel.umap",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/3D/Japanese_Statue_venlfjjcb/Medium/venlfjjcb_tier_2/Textures/T_venlfjjcb_2K_N.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/3D/Japanese_Statue_venlfjjcb/Medium/venlfjjcb_tier_2/Textures/T_venlfjjcb_2K_ORM.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/3D/Japanese_Statue_venlfjjcb/Medium/venlfjjcb_tier_2/Textures/T_venlfjjcb_2K_B.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/3D/Japanese_Statue_venlfjjcb/Medium/venlfjjcb_tier_2/Materials/MI_venlfjjcb.uasset",
+				"C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Fab/Content/Materials/Standard/M_MS_Base.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/3D/Japanese_Statue_venlfjjcb/Medium/venlfjjcb_tier_2/StaticMeshes/venlfjjcb_tier_2.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/3D/Japanese_Statue_venlfjjcb/High/venlfjjcb_tier_1/Textures/T_venlfjjcb_4K_N.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/3D/Japanese_Statue_venlfjjcb/High/venlfjjcb_tier_1/Textures/T_venlfjjcb_4K_ORM.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/3D/Japanese_Statue_venlfjjcb/High/venlfjjcb_tier_1/Textures/T_venlfjjcb_4K_B.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/3D/Japanese_Statue_venlfjjcb/High/venlfjjcb_tier_1/Textures/T_venlfjjcb_4K_H.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/3D/Japanese_Statue_venlfjjcb/High/venlfjjcb_tier_1/Materials/MI_venlfjjcb.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/3D/Japanese_Statue_venlfjjcb/High/venlfjjcb_tier_1/StaticMeshes/venlfjjcb_tier_1.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/3D/Japanese_Shrine_Stairs_udetbbeqx/High/udetbbeqx_tier_1/Textures/T_udetbbeqx_4K_N.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/3D/Japanese_Shrine_Stairs_udetbbeqx/High/udetbbeqx_tier_1/Textures/T_udetbbeqx_4K_ORM.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/3D/Japanese_Shrine_Stairs_udetbbeqx/High/udetbbeqx_tier_1/Textures/T_udetbbeqx_4K_B.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/3D/Japanese_Shrine_Stairs_udetbbeqx/High/udetbbeqx_tier_1/Textures/T_udetbbeqx_4K_H.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/3D/Japanese_Shrine_Stairs_udetbbeqx/High/udetbbeqx_tier_1/Textures/T_udetbbeqx_4K_F.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/3D/Japanese_Shrine_Stairs_udetbbeqx/High/udetbbeqx_tier_1/Materials/MI_udetbbeqx.uasset",
+				"C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Fab/Content/Materials/Standard/M_MS_Base_Fuzz.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/3D/Japanese_Shrine_Stairs_udetbbeqx/High/udetbbeqx_tier_1/StaticMeshes/udetbbeqx_tier_1.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/Plants/Boston_Fern_rhDrC/High/rhDrC_tier_1/Textures/T_rhDrC_4K_N.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/Plants/Boston_Fern_rhDrC/High/rhDrC_tier_1/Textures/T_rhDrC_4K_ORT.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/Plants/Boston_Fern_rhDrC/High/rhDrC_tier_1/Textures/T_rhDrC_4K_B.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/Plants/Boston_Fern_rhDrC/High/rhDrC_tier_1/Textures/T_rhDrC_4K_Billboard_N-T.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/Plants/Boston_Fern_rhDrC/High/rhDrC_tier_1/Textures/T_rhDrC_4K_Billboard_B-O.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/Plants/Boston_Fern_rhDrC/High/rhDrC_tier_1/Materials/MI_rhDrC.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/Plants/Boston_Fern_rhDrC/High/rhDrC_tier_1/Materials/MI_rhDrC_Billboard.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/Plants/Boston_Fern_rhDrC/High/rhDrC_tier_1/StaticMeshes/SM_rhDrC_VarA.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/Plants/Boston_Fern_rhDrC/High/rhDrC_tier_1/StaticMeshes/SM_rhDrC_VarB.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/Plants/Boston_Fern_rhDrC/High/rhDrC_tier_1/StaticMeshes/SM_rhDrC_VarC.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/Plants/Boston_Fern_rhDrC/High/FoliageTypes/FT_rhDrC_VarA.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/Plants/Boston_Fern_rhDrC/High/FoliageTypes/FT_rhDrC_VarB.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/Plants/Boston_Fern_rhDrC/High/FoliageTypes/FT_rhDrC_VarC.uasset",
+				"D:/Archive E/Docs/Projects/Escape/OneDrive - Escape Studios/Module_2/PythonTool/Content/Fab/Megascans/Plants/BP_GlobalFoliageActor.uasset"
+			]
+		}
+	]
+}

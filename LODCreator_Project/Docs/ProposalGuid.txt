@@ -1,0 +1,17 @@
+Proposal:
+
+-Name of your Tool / Title
+Idea
+
+Context./ Background -> Explain your idea, what it's for and problem it solves, API/Tech Ecosystem you're targeting (Unreal, Maya, StandAlone/CLI)
+
+List of Features -> functionality that your tool will have.
+
+List of Stretch Goals -> List things you can add later, either after the module ends or if you finish your main feature list early on.
+
+The UX/UI.mock.up ->.The UX/UI you can up with based on the references you've researched.
+Functionality layout -> This how you're structuring your code. (pseudo code, UML Diagrams, bulletpoints)
+
+Keep a production log.
+if you're using Github <--- use your commit messages as a sort of production log. History of your work.
+Branches -> to have different version.

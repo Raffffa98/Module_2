@@ -1,0 +1,102 @@
+.LOG
+19:01 27/11/2025
+
+My Plugin plan: 
+
+Create plugin tool that is controllable through
+GUI sliders of program.
+
+Idea for tool - Maya to Unreal LOD creator and exporter:
+
+  I want my tool to create LODS automatically by:
+  - Creating 4 duplicate meshes of asset
+  - Rename correctly (LOD0, LOD1…)
+  - Decimating them with controls for getting desired
+    result
+  - Controls for ensuring smooth clean Texture coordinates
+    so that there is no unwanted warping
+  - Set pivot / freeze transforms
+  - Export FBX with correct settings
+  - Import manually in Unreal    
+ 
+  Project Criteria:
+ 
+ - Has to be done using Python
+
+ - Has to give a solution to a problem/need in
+  in the industry
+
+1. User Guide
+
+2. Tool itself
+
+3. Video Presentation
+
+*All with Academic references and citations!
+
+Time left - 5 weeks
+
+
+Plan:
+
+-   Research ways to create plugin,
+    and decide if to go forward with idea
+
+-   Finish writing proposal
+
+-  Decide on a second proposal idea...
+
+
+
+13:00 30/11/2025
+
+09:25 01/12/2025
+
+Time left - 5 weeks
+
+
+Plan:
+
+- Play around with Maya and decide if you wanna
+  create a plugin for it	
+
+-   Send idea to Omar today! Understand from him if 
+    if its worth going forward with the idea...
+
+-   Finish writing proposal
+
+
+Idea for tool - Maya to Unreal LOD creator and exporter:
+
+  I want my tool to create LODS automatically by:
+  - Creating 4 duplicate meshes of asset
+  - Rename correctly (LOD0, LOD1…)
+  - Decimating them with controls for getting desired
+    result
+  - Controls for ensuring smooth clean Texture coordinates
+    so that there is no unwanted warping
+  - Set pivot / freeze transforms
+  - Export FBX with correct settings
+  - Import manually in Unreal    
+
+
+16:55 01/12/2025
+
+
+Plan:
+
+- Get confutable with Maya's existing LOD pipeline (minimal external plugins):
+
+    - Download an LOD Asset from Fab and study its LOD structure
+    - export the separate levels into Maya (study the different options and settings)***
+    - try to create you're own LOD using you're custom asset 
+      following the standard way...
+
+- Finish writing proposal
+
+
+- Send to Omar and Anna (Listen to Annas advice)
+
+
+
+18:51 01/12/2025
