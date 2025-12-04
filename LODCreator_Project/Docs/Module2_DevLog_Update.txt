@@ -13,8 +13,6 @@ Idea for tool - Maya to Unreal LOD creator and exporter:
   - Rename correctly (LOD0, LOD1…)
   - Decimating them with controls for getting desired
     result
-  - Controls for ensuring smooth clean Texture coordinates
-    so that there is no unwanted warping
   - Set pivot / freeze transforms
   - Export FBX with correct settings
   - Import manually in Unreal    
@@ -100,3 +98,38 @@ Plan:
 
 
 18:51 01/12/2025
+
+11:00 02/12/2025
+
+Time left - 4.5 weeks
+
+
+Plan:
+
+- Get confutable with Maya's existing LOD pipeline (minimal external plugins):
+
+
+- Every hour or so, rewatch Omar lessons to catch up on material...*
+
+	Research phase:	
+	
+	- READ: Maya docs about LOD method (existing), watch Simplygon tool videos + read*** 		  
+	  documentation, maybe download tool for Maya (if possible an LOD creator) and try to 	  	  
+	  understand what makes it successful or not...	
+
+	- Download an LOD Asset from Fab and study its LOD structure
+	- export the separate levels into Maya (study the different options and settings)
+	- try to create you're own LOD using you're custom asset 
+ 	  following the standard way...
+	- Try and download an LOD plugin to and study how it works
+
+
+- Finish writing proposal
+
+
+- Send to Omar and Anna (Listen to Annas advice)
+
+
+
+
+

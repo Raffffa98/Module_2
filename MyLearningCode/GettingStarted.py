@@ -8,6 +8,8 @@ running = True
 x = screen.get_width() / 2
 y = screen.get_height() / 2
 
+delta_Time = 0
+
 circle_position = pygame.Vector2(x, y)
 
 while running:
@@ -16,15 +18,22 @@ while running:
         if event.type == pygame.QUIT:
            running = False
         if event.type == pygame.KEYDOWN:
+            running = False
 
-    screen.fill("black")
+        screen.fill("black")
 
     pygame.draw.circle(screen, "purple", circle_position, 100)
+
+    Keys = pygame.key.get_pressed()
+
+    if Keys [pygame.k.w]:
+        circle_position.y -= 300 * delta_Time
+
 
 
     pygame.display.flip()
 
-    clock.tick(60)
+    delta_Time = clock.tick(60) / 1000
 
 pygame.quit()
 
